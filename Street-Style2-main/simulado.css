@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 190px;
+    box-shadow: 0 8px 12px 2px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: #c6c6c4;
+    z-index: 4;
+    margin-top: -290px;
+
+
+}
+
+header::before {
+    height: 90px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.5) 10%,
+            /* Início menos preto */
+            rgba(0, 0, 0, 0.3) 50%,
+            /* Sombra principal até 50% */
+            rgba(0, 0, 0, 0.1) 75%,
+            /* Sombra continua até 80% */
+            rgba(0, 0, 0, 0) 100%
+            /* Transparente em 100% */
+        );
+
+}
+
+.svgs {
+   
+    position: absolute;
+    margin-top: 70px;
+    left: 70%;
+    display: flex;
+    gap: 40px;
+    height: 55px;
+
+    & svg {
+        padding: 10px;
+        color: white;
+        width: 90px;
+        height: 45px;
+    }
+
+    & .catalogo-svg {
+        width: 90px;
+        height: 60px;
+        margin-top: -8px;
+    }
+
+
+}
+
+.caixa-texto{
+    margin-top: 290px;
+    z-index: 1;
+}
+
+footer {
+    margin-top: 220px;
+    background-color: #ada9a9;
+    display: flex;
+    gap: 120px;
+    padding: 90px 0px;
+    color: #ffffff;
+
+
+    & a {
+        text-decoration: none;
+        color: #ffffff;
+
+        &:hover {
+            color: #d3d1d1;
+        }
+    }
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 190px;
+}
+
+.sobre {
+    width: 40%;
+
+    & p {
+        width: 100%;
+    }
+}
+
+.rodape-contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.empresa {
+    background-color: #514f4f;
+    color: #ffffff;
+    padding: 10px 0px;
+
+    & p {
+        margin-left: 190px;
+    }
+}
