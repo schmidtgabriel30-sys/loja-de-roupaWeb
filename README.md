@@ -11,5 +11,4 @@ Na Street Style, visamos dretamente um visual mais focado no estilo de rua, traz
 <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/27f2f70c-3c0c-451e-ae95-fda448544726" />
 <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/2342f98a-806c-49fb-9477-a341eeacc1be" />
 <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/de37b3f5-467d-45a5-826a-d33cb06c2a39" />
-<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/7e969586-785b-48ce-93e1-dbeacbf20889" />
 <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/dac12a8f-2944-4c75-a038-0a7ded4dff85" />
