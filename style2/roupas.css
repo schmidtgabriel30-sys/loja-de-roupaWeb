@@ -1,0 +1,232 @@
+.fundo {
+    position: fixed;
+    background-image: url(fundo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+.carrinho {
+    width: 200px;
+    margin-top: -190px;
+    margin-left: 100px;
+    position: relative;
+    z-index: 3;
+    padding: 10px;
+
+
+}
+
+.veja-mais {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: -130px;
+    font-family: "Story Script", cursive;
+    background-color: black;
+    width: 180px;
+    color: white;
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 15px;
+    border-radius: 10px;
+
+}
+
+.cargo-img {
+    position: relative;
+    width: 380px;
+    margin-left: 470px;
+    height: 490px;
+    border-radius: 10px;
+    margin-top: -90px;
+    box-shadow: -30px 10px 50px 20px rgba(1, 1, 1, 1);
+    display: flex;
+    z-index: 2;
+    opacity: 0;
+}
+
+.desc {
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 32%;
+    left: 32%;
+    font-family: "Story Script", cursive;
+    background-color: black;
+    color: white;
+    padding-left: 90px;
+    text-align: end;
+    padding-right: 15px;
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    font-family: "Story Script", cursive;
+    background-color: black;
+    color: white;
+    padding-left: 90px;
+    text-align: end;
+    padding-right: 15px;
+}
+
+.tamanho-roupa {
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    font-family: "Story Script", cursive;
+    display: flex;
+    gap: 20px;
+    opacity: 0;
+
+    & button {
+        padding: 15px 20px;
+        border: none;
+        color: black;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            border: solid 2px white;
+
+
+        }
+    }
+}
+
+#quantidade {
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* remove as setinhas */
+#quantidade::-webkit-inner-spin-button,
+#quantidade::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.inputs-quantidade {
+    position: absolute;
+    top: 60%;
+    left: 54%;
+    padding-left: 50px;
+    opacity: 0;
+
+
+
+    & button {
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        color: white;
+        border: solid 2px black;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: black;
+        }
+    }
+
+}
+
+.carrinho-btn {
+    position: absolute;
+    top: 70%;
+    left: 95%;
+    padding: 15px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    left: 57.4%;
+    opacity: 0;
+
+    &:hover {
+        border: solid 2px white;
+    }
+}
+
+main {
+    margin-left: 185px;
+}
+
+.voltar {
+    margin-left: 20px;
+    background-color: black;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.desc-completa {
+    width: 290px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: black;
+    line-height: 22px;
+    font-size: 15px;
+    margin-top: -480px;
+    margin-left: 320px;
+    font-family: "Antic Slab", serif;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+
+
+
+}
+
+.car {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 80%;
+    top: 8%;
+    border: none;
+
+    & svg {
+        width: 40px;
+    }
+}
+
+.contador {
+    position: absolute;
+    left: 83%;
+    top: 6%;
+    background-color: rgb(253, 253, 253);
+    border-radius: 50%;
+    padding: 10px;
+    height: 10px;
+
+    & p {
+        margin-top: 0;
+    }
+}
